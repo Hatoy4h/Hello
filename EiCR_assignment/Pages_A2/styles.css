@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Alexandria:wght@100..900&display=swap');
+/* Naraba was designed by FlawlessAndCo and is only free for personal use */
+@font-face {
+    font-family: 'Naraba';
+    src: url('Naraba-Regular.woff2') format('woff2');
+}
+
+
+h1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Alexandria';
+}
+/* font for english text */
+.lang (en) {
+    font-family: 'Naraba', sans-serif;
+}
+/* font for arabic text */
+.lang (ar) {
+    font-family: 'Alexandria';
+    direction: rtl;
+}
+
+
+
+/* that line in the sidebar */
+hr {
+    background-color: #000000;
+    height: 1px;
+    border: none;
+}
+
+#navbar {
+    background-color: rgba(175, 37, 97, 0);
+    height: 100px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+
+.menu-bars {
+    margin-left: 2rem;
+    font-size: 2rem;
+    color: #acaea0;
+}
+
+#nav-menu {
+  background-color: rgb(104, 104, 104);
+  width: 250px;  
+  height: 100%;
+  display: fle;
+  justify-content: center;
+  position: fixed;
+  top: 0;
+  /* left: -100%; */
+  z-index: -0.1;
+  transition: 850ms;
+}
+
+#nav-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+
+/* unsure what this is */
+.nav-text {
+   color: rgb(247, 246, 247);
+    display: flex;
+    justify-content: start;
+    list-style: none;
+    height: 50px;
+    padding: 1rem;
+}
+
+/* the words that appear in the sidebar */
+.nav-text a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.2rem;
+    margin-left: 1rem;
+}
+
+/* for background opacity behind words in sidebar */
+.nav-text:hover {
+    background-color: rgba(74, 74, 74, 0.219);
+    cursor: pointer
+}
+
+.nav-menu-items {
+    width: 100%;
+}
+
+/* unsure what this is */
+.nav-icon {
+    padding-right: 1rem;
+    color: rgb(229, 214, 236);
+}
+
+/* the block behind glossary */
+#navbar-toggle {
+    background-color:rgb(10, 10, 10);
+    width: 100%;
+    height: 100%;
+    display:flex;
+    justify-content: start;
+    align-items: center;
+}
+
+/* the word glossary */
+#navbar-toggle h1 {
+    color: #716969;
+    font-family: 'Alexandria';
+}
+
+/* removes line from glossary */
+#navbar-toggle a {
+    text-decoration: none;
+}
+
+/* the close menu thing */
+.menu-bars {
+    color: #ffffff;
+    font-weight: 670;
+}
+
+.nav-section {
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#button1 {
+    color: white;
+    border-radius: 0%;
+    font-family: ;
+    font-size: 16px;
+    display:inline-block;
+    margin: 4px 2px;
+    text-decoration: none;
+    text-align: center;
+    padding: 15px 32px;
+    cursor: pointer;
+}
+
+#button2 {
+    color: white;
+    border-radius: 0%;
+    font-size: larger;
+    font-size: 16px;
+    cursor: pointer;
+}
